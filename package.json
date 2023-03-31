@@ -1,0 +1,19 @@
+{
+  "name": "codingninjas_major_project_1",
+  "version": "1.0.0",
+  "description": "coding ninjas mini project one todo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anand Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.10.4",
+    "nodemon": "^2.0.22",
+    "sweetalert": "^2.1.2"
+  }
+}
