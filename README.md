@@ -1,12 +1,9 @@
-# ToDo_App
-
-
+# Full stack ToDo_App
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
@@ -18,10 +15,6 @@
 
 It is a simple TODO application using NodeJS and MongDB. where a user of this application can create,edit and delete all the ToDo items .
 
-### Screenshot
-
-![](images/image1.png)
-![](images/Screenshot.png)
 
 ## My process
 
@@ -42,7 +35,7 @@ ToDo application is based on NodeJs and express as server side technology, Mongo
 - [expressJs](https://expressjs.com/)
 
 ## Author
-
+Anand kumar
 -
 
 
