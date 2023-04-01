@@ -1,10 +1,16 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/{todo_list_db}');
-const db = mongoose.connection;
-// error
 
-db.on('error',console.error.bind(console,'erroe connecting to db'));
-// up and running then message
-db.once('open',function(){
-    console.log('Success fully connected to the database')
-})
+// Connect to MongoDB using environment variables
+const uri = process.env.MONGODB_URI;
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+// Get the default connection
+const db = mongoose.connection;
+
+// Bind error event to the console
+db.on('error', console.error.bind(console, 'connection error:'));
+
+// Bind connection event to the console
+db.once('open', function() {
+  console.log("Connected to MongoDB database!");
+});
